@@ -64,8 +64,8 @@
             "inherits": "x64-debug",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Release",
-                "CMAKE_C_COMPILER": "D:/Program Files/Compiler/LLVM-18.1.0-rc2/bin/clang.exe",
-                "CMAKE_CXX_COMPILER": "D:/Program Files/Compiler/LLVM-18.1.0-rc2/bin/clang++.exe"
+                "CMAKE_C_COMPILER": "E:/Program Files/LLVM/bin/clang.exe",
+                "CMAKE_CXX_COMPILER": "E:/Program Files/LLVM/bin/clang++.exe"
             }
         }
     ]

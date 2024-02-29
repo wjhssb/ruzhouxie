@@ -1,4 +1,5 @@
-#include "test_tool.h"
+//#include "test_tool.h"
+#include <iostream>
 #include <array>
 #include <ruzhouxie\tensor.h>
 #include <utility>
@@ -58,8 +59,8 @@ int main()
     auto r = exp | rzx::make_tree<mat_t>;
     //MAGIC_CHECK((mat | rzx::child<0, 0>), 1.0);
     //MAGIC_SHOW_TYPE(exp0);
-    MAGIC_SHOW_TYPE(exp);
-    MAGIC_SHOW_TYPE(r);
+    //MAGIC_SHOW_TYPE(exp);
+    //MAGIC_SHOW_TYPE(r);
     
     std::cout << r[0][0] << ", " << r[0][1] << '\n';
     std::cout << r[1][0] << ", " << r[1][1] << '\n';
